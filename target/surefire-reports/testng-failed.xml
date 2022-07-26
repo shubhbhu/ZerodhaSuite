@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ZerodhaApplication]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="zerodhaTest.ZerodhaInputPinTest">
+        <methods>
+          <include name="getLogin"/>
+          <include name="clickOnContinue"/>
+        </methods>
+      </class> <!-- zerodhaTest.ZerodhaInputPinTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [ZerodhaApplication] -->
